@@ -12,7 +12,7 @@ r = 100e6        # ohm
 i_mean = 25e-11  # ampere
 
 # Set random number generator
-np.random.seed(200)
+np.random.seed(0)
 
 # Initialize step_end, n, t_range, v and i
 step_end = int(t_max / dt)
